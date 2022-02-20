@@ -10,6 +10,9 @@ spec:
       requests:
         cpu: "500m"
         memory: "250Mi"
+      limits:
+        cpu: "750m"
+        memory: "500Mi"  
     ports:
     - containerPort: 80
     volumeMounts:
